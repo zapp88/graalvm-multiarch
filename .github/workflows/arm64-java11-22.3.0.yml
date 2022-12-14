@@ -1,4 +1,4 @@
-name: Build and Publish aarch64-java11-graalvm21.3.0
+name: Build and Publish aarch64-java11-graalvm22.3.0
 
 on: workflow_dispatch
 
@@ -28,4 +28,4 @@ jobs:
             ARCH=aarch64
           platforms: linux/arm64
           tags: |
-            zapp88/graalvm-multiarch:arm64-java11-graalvm21.3.0
+            zapp88/graalvm-multiarch:arm64-java11-graalvm22.3.0
