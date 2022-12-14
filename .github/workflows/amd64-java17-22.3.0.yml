@@ -1,4 +1,4 @@
-name: Build and Publish aarch64-java17-graalvm21.3.0
+name: Build and Publish amd64-java17-graalvm22.3.0
 
 on: workflow_dispatch
 
@@ -26,8 +26,8 @@ jobs:
           push: true
           build-args: |
             JAVA_VER=java17
-            GRAALVM_VER=21.3.0
-            ARCH=aarch64
-          platforms: linux/arm64
+            GRAALVM_VER=22.3.0
+            ARCH=amd64
+          platforms: linux/amd64
           tags: |
-            zapp88/graalvm-multiarch:arm64-java17-graalvm21.3.0
+            zapp88/graalvm-multiarch:amd64-java17-graalvm22.3.0
