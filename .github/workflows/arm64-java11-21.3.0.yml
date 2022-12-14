@@ -24,7 +24,7 @@ jobs:
           push: true
           build-args: |
             JAVA_VER=java11
-            GRAALVM_VER=21.3.0
+            GRAALVM_VER=22.3.0
             ARCH=aarch64
           platforms: linux/arm64
           tags: |
