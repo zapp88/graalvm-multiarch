@@ -1,4 +1,4 @@
-name: Build and Publish amd64-java11-graalvm21.3.0
+name: Build and Publish amd64-java11-graalvm22.3.0
 
 on: workflow_dispatch
 
